@@ -9,6 +9,7 @@ import Navigation from "./Navigation";
 import { Button } from "../ui/button";
 import { NavLinkItem } from "./NavLinkItem";
 import { defaultLinks } from "@/lib/data";
+import Link from "next/link";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,11 +18,11 @@ const Header = () => {
   return (
     <>
       {/* Sticky Header */}
-      <header className="sticky top-0 z-50 flex h-12 sm:h-16 items-center justify-between px-4 py-3 sm:px-20 shadow-sm bg-white">
+      <header className="sticky top-0 z-50 flex h-16 items-center justify-between px-4 sm:px-20 shadow-sm bg-white">
         {/* Logo */}
-        <a href="/" className="flex-shrink-0">
+        <Link href="/" className="flex-shrink-0">
           <Image src={logo} width={150} alt="Company logo" />
-        </a>
+        </Link>
 
         {/* Mobile Menu Toggle Button */}
         <button
@@ -36,35 +37,34 @@ const Header = () => {
           />
         </button>
 
-        {/* Desktop Navigation Links */}
+        {/* Desktop Navigation */}
         <nav className="hidden sm:flex items-center space-x-6 relative text-lg">
           {defaultLinks.map((link) => (
             <NavLinkItem key={link.href} link={link} />
           ))}
         </nav>
 
-        {/* Desktop CTA Button */}
+        {/* Desktop CTA */}
         <Button className="hidden sm:flex rounded-full bg-gradient-to-r from-green-300 to-blue-300">
           Request Invite
         </Button>
       </header>
 
-      {/* Main Content Area */}
-      <main>
-        {/* Mobile Navigation Overlay */}
-        {menuOpen && (
-          <>
-            {/* Backdrop */}
-            <div
-              className="fixed inset-0 bg-black/40 z-40"
-              onClick={toggleMenu}
-            />
+      {/* Mobile Menu Overlay */}
+      {menuOpen && (
+        <>
+          {/* Backdrop that covers everything except the header */}
+          <div
+            className="fixed inset-0 top-16 z-40 bg-black/40 sm:hidden"
+            onClick={toggleMenu}
+          />
 
-            {/* Slide-out Menu */}
+          {/* Mobile Menu that appears just below the sticky header */}
+          <div className="fixed top-16 left-0 right-0 z-50 sm:hidden">
             <Navigation onClose={() => setMenuOpen(false)} />
-          </>
-        )}
-      </main>
+          </div>
+        </>
+      )}
     </>
   );
 };
