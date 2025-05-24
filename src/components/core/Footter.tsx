@@ -39,7 +39,7 @@ const Footer = (props: Props) => {
             {/* Logo */}
             <Link
               href="/"
-              className="flex-shrink-0 sm:mb-8"
+              className="flex-shrink-0 sm:mb-8 bg-white inline-block"
               aria-label="Go to homepage"
             >
               <Image src={logo} width={130} alt="Easybank Logo" />

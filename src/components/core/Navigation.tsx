@@ -8,7 +8,7 @@ const Navigation: React.FC<NavigationProps> = ({
 }) => {
   return (
     <nav
-      className="absolute flex flex-col items-center justify-center top-16 left-0 right-0 m-4 z-50 px-4 py-6 bg-white text-gray-800 rounded-md shadow-md"
+      className="absolute flex flex-col items-center justify-center top-12 left-0 right-0 m-4 z-50 px-4 py-6 bg-white text-gray-800 rounded-md shadow-md"
       aria-label="Main mobile menu"
     >
       <ul className="space-y-4 text-sm text-center font-semibold">

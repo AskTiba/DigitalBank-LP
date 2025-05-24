@@ -15,49 +15,57 @@ const Header = () => {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    <main className="relative">
-      <header className="sticky sm:px-20 top-0 z-50 flex items-center justify-between px-4 py-3 shadow-sm bg-white">
+    <>
+      {/* Sticky Header */}
+      <header className="sticky top-0 z-50 flex h-12 sm:h-16 items-center justify-between px-4 py-3 sm:px-20 shadow-sm bg-white">
+        {/* Logo */}
         <a href="/" className="flex-shrink-0">
-          <Image src={logo} width={120} alt="Company logo" />
+          <Image src={logo} width={150} alt="Company logo" />
         </a>
 
-        {/* Mobile Menu Toggle */}
+        {/* Mobile Menu Toggle Button */}
         <button
           onClick={toggleMenu}
-          className="focus:outline-none p-2 sm:hidden"
+          className="focus:outline-none sm:hidden cursor-pointer"
           aria-label={menuOpen ? "Close menu" : "Open menu"}
         >
           <Image
             src={menuOpen ? close : hamburger}
             alt={menuOpen ? "Close menu" : "Open menu"}
-            width={24}
-            height={24}
+            width={20}
           />
         </button>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden sm:flex items-center space-x-6 relative">
+        {/* Desktop Navigation Links */}
+        <nav className="hidden sm:flex items-center space-x-6 relative text-lg">
           {defaultLinks.map((link) => (
             <NavLinkItem key={link.href} link={link} />
           ))}
         </nav>
 
-        <Button className="hidden sm:flex rounded-full bg-linear-to-r from-green-300 to-blue-300">
+        {/* Desktop CTA Button */}
+        <Button className="hidden sm:flex rounded-full bg-gradient-to-r from-green-300 to-blue-300">
           Request Invite
         </Button>
       </header>
 
-      {/* Overlay for Mobile */}
-      {menuOpen && (
-        <>
-          <div
-            className="fixed inset-0 bg-black/40 z-40"
-            onClick={toggleMenu}
-          />
-          <Navigation onClose={() => setMenuOpen(false)} />
-        </>
-      )}
-    </main>
+      {/* Main Content Area */}
+      <main>
+        {/* Mobile Navigation Overlay */}
+        {menuOpen && (
+          <>
+            {/* Backdrop */}
+            <div
+              className="fixed inset-0 bg-black/40 z-40"
+              onClick={toggleMenu}
+            />
+
+            {/* Slide-out Menu */}
+            <Navigation onClose={() => setMenuOpen(false)} />
+          </>
+        )}
+      </main>
+    </>
   );
 };
 
