@@ -5,44 +5,49 @@ import Image from "next/image";
 import logo from "@/assets/images/logo.svg";
 import hamburger from "@/assets/images/icon-hamburger.svg";
 import close from "@/assets/images/icon-close.svg";
-import Link from "next/link";
 import Navigation from "./Navigation";
+import { Button } from "../ui/button";
+import { NavLinkItem } from "./NavLinkItem";
+import { defaultLinks } from "@/lib/data";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
     <main className="relative">
-      {/* Sticky Header */}
-      <header className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 shadow-sm">
-        {/* Logo */}
-        <Link href="/">
-          <div>
-            <Image src={logo} width={120} alt="Company logo" />
-          </div>
-        </Link>
+      <header className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 shadow-sm bg-white">
+        <a href="/" className="flex-shrink-0">
+          <Image src={logo} width={120} alt="Company logo" />
+        </a>
 
-        {/* Hamburger / Close Toggle */}
+        {/* Mobile Menu Toggle */}
         <button
           onClick={toggleMenu}
-          className="focus:outline-none cursor-pointer p-2"
+          className="focus:outline-none p-2 sm:hidden"
           aria-label={menuOpen ? "Close menu" : "Open menu"}
         >
-          <div className="flex items-center justify-center w-5 h-5">
-            <Image
-              src={menuOpen ? close : hamburger}
-              alt={menuOpen ? "Close menu icon" : "Hamburger menu icon"}
-              width={24}
-              height={24}
-              className="object-contain"
-            />
-          </div>
+          <Image
+            src={menuOpen ? close : hamburger}
+            alt={menuOpen ? "Close menu" : "Open menu"}
+            width={24}
+            height={24}
+          />
         </button>
+
+        {/* Desktop Navigation */}
+        <nav className="hidden sm:flex items-center space-x-6 relative">
+          {defaultLinks.map((link) => (
+            <NavLinkItem key={link.href} link={link} />
+          ))}
+        </nav>
+
+        <Button className="hidden sm:flex rounded-full bg-linear-to-r from-green-300 to-blue-300">
+          Request Invite
+        </Button>
       </header>
 
-      {/* Overlay and Dropdown Menu */}
+      {/* Overlay for Mobile */}
       {menuOpen && (
         <>
           <div

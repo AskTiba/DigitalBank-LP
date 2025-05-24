@@ -1,23 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
-interface NavLink {
-  label: string;
-  href: string;
-}
-
-interface NavigationProps {
-  onClose: () => void;
-  links?: NavLink[];
-}
-
-const defaultLinks: NavLink[] = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-  { label: "Blog", href: "/blog" },
-  { label: "Careers", href: "/careers" },
-];
+import { defaultLinks, NavigationProps } from "@/lib/data";
 
 const Navigation: React.FC<NavigationProps> = ({
   onClose,
