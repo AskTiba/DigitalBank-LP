@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <main className="relative">
-      <header className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 shadow-sm bg-white">
+      <header className="sticky sm:px-20 top-0 z-50 flex items-center justify-between px-4 py-3 shadow-sm bg-white">
         <a href="/" className="flex-shrink-0">
           <Image src={logo} width={120} alt="Company logo" />
         </a>

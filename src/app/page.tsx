@@ -1,4 +1,4 @@
-import Footter from "@/components/core/Footter";
+import Footer from "@/components/core/Footter";
 import Header from "@/components/core/Header";
 import Hero from "@/components/core/Hero";
 import Latest_Articles from "@/components/core/Latest_Articles";
@@ -12,7 +12,7 @@ const Page = () => {
       <Hero />
       <WhyChooseEasyBank />
       <Latest_Articles />
-      <Footter />
+      <Footer />
     </main>
   );
 };

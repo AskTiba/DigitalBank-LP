@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
           <Image src={ok} className="" alt="Company logo" />
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center text-center gap-6 mx-5 my-10">
+      <section className="flex flex-col justify-center items-center text-center gap-6 mx-5">
         <h3 className="text-4xl font-normal">
           Next generation digital banking
         </h3>
