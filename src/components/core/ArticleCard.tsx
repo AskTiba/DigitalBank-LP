@@ -23,7 +23,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
       {/* Content Section */}
       <div className="flex flex-col gap-2 p-6">
         <h3 className="text-xs text-gray-500 font-medium">By {author}</h3>
-        <h2 className="text-md font-semibold text-gray-800 hover:text-blue-600 cursor-pointer transition">
+        <h2 className="text-lg font-semibold text-gray-800 hover:text-blue-600 cursor-pointer transition">
           {title}
         </h2>
         <p className="text-sm text-gray-600">{summary}</p>
