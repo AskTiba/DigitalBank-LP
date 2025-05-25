@@ -91,7 +91,7 @@ export default FeatureCard;
 
 ````
 
-This button uses a gradient, hover effect, and smooth transitions — all with Tailwind utilities.
+This reponsive compenent was used to render a card.
 
 ### Continued development
 
