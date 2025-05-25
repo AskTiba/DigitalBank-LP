@@ -14,7 +14,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   description,
 }) => {
   return (
-    <article className="flex flex-col items-center text-center gap-4 px-4">
+    <article className="flex flex-col sm:items-start items-center sm:text-left text-center gap-4 px-4 sm:px-0">
       <Image src={icon} alt={title} width={72} height={72} />
       <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
       <p className="text-sm text-gray-500 max-w-xs">{description}</p>

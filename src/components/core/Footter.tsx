@@ -10,9 +10,6 @@ import pinterest from "@/assets/images/icon-pinterest.svg";
 import instagram from "@/assets/images/icon-instagram.svg";
 import { Button } from "../ui/button";
 
-// Define the props type if you expect to receive props later
-type Props = {};
-
 const socialLinks = [
   { src: facebook, alt: "Facebook", href: "#" },
   { src: youtube, alt: "YouTube", href: "#" },
@@ -30,7 +27,7 @@ const navLinks = [
   "Privacy Policy",
 ];
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <footer className="bg-[#2d314d] text-white py-10 sm:px-24 sm:w-full">
       <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row sm:justify-between items-center gap-6">

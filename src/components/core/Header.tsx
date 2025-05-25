@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <>
       {/* Sticky Header */}
-      <header className="sticky top-0 z-50 flex h-16 items-center justify-between px-4 sm:px-20 shadow-sm bg-white">
+      <header className="sticky top-0 z-50 flex h-16 items-center justify-between px-4 sm:px-32 shadow-sm bg-white">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image src={logo} width={150} alt="Company logo" />
