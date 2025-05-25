@@ -41,8 +41,8 @@ const articles = [
 
 const LatestArticles = () => {
   return (
-    <section className="py-10 px-4 bg-gray-50">
-      <h1 className="text-3xl sm:text-3xl font-normal text-center mb-10 text-gray-800">
+    <section className="py-10 px-4 sm:px-32 bg-gray-50 sm:mt-16">
+      <h1 className="text-3xl sm:text-4xl font-normal text-center sm:text-left mb-10 text-gray-800">
         Latest Articles
       </h1>
 

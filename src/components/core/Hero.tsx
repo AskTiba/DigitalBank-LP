@@ -8,7 +8,7 @@ import desktop from "@/assets/images/bg-intro-desktop.svg";
 const Hero = () => {
   return (
     <main className="sm:hidden gap-20">
-      <section className="sm:order-2 border sm:flex relative">
+      <section className="sm:order-2 sm:flex relative">
         <article className="sm:hidden">
           <div className="w-full relative sm:hidden -mt-5">
             <Image
@@ -30,8 +30,8 @@ const Hero = () => {
           </div>
         </article>
       </section>
-      <section className="flex border flex-col sm:w-1/2 sm:self-start sm:ml-28 text-center gap-6 sm:order-1 sm:text-left">
-        <h3 className="text-4xl font-normal sm:text-5xl">
+      <section className="flex flex-col sm:w-1/2 sm:self-start sm:ml-28 text-center gap-6 sm:order-1 sm:text-left">
+        <h3 className="text-4xl font-normal px-4 sm:text-5xl">
           Next generation digital banking
         </h3>
         <p className="text-gray-500  sm:text-[17px] sm:mr-10">

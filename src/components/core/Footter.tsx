@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/images/logo.svg";
 import facebook from "@/assets/images/icon-facebook.svg";
 import youtube from "@/assets/images/icon-youtube.svg";
 import twitter from "@/assets/images/icon-twitter.svg";
@@ -30,8 +29,8 @@ const navLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2d314d] text-white py-10 sm:px-24 sm:w-full">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row sm:justify-between items-center gap-6">
+    <footer className="bg-[#2d314d] text-white py-10 sm:px-32 sm:w-full">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:justify-between items-center gap-6">
         <aside className="sm:flex gap-28">
           <div className="flex flex-col items-center justify-center sm:">
             {/* Logo */}
