@@ -128,14 +128,4 @@ A huge thanks to:
 * ChatGPT for assisting in code snippets, logic, and design decisions.
 * The Tailwind, Next.js, and shadcn/ui communities for the amazing tooling and documentation.
 
-```
 
----
-
-Before you paste this, a few final clarifying questions to make this perfect:
-1. What are your GitHub username and live project URL (if not yet deployed, I can leave placeholders)?
-2. Do you want your real name, Twitter, or portfolio link added to the author section?
-3. Do you want to include any specific components you made or challenges you faced technically?
-
-Take a deep breath, let me know any final tweaks you'd like, and I’ll finalize it perfectly.
-```
