@@ -7,7 +7,7 @@ import { features } from "@/lib/data/features";
 
 const WhyChooseEasyBank = () => {
   return (
-    <main className="bg-gray-500/10 mt-10 py-12 sm:px-28">
+    <main className="bg-gray-500/10 mt-10 py-12 sm:pt-24 sm:px-28">
       {/* Heading Section */}
       <section className="text-center sm:text-left  flex flex-col gap-5 px-4 sm:w-1/2 sm:self-start">
         <h1 className="text-5xl sm:text-4xl font-normal text-gray-900 ">

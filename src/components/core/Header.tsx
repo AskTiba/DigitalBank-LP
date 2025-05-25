@@ -45,7 +45,7 @@ const Header = () => {
         </nav>
 
         {/* Desktop CTA */}
-        <Button className="hidden sm:flex rounded-full bg-gradient-to-r from-green-300 to-blue-300">
+        <Button className="hidden sm:flex rounded-full px-8 py-5 bg-gradient-to-r from-green-600 to-blue-600">
           Request Invite
         </Button>
       </header>

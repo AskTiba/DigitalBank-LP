@@ -16,17 +16,24 @@ export const NavLinkItem = ({ link }: NavLinkItemProps) => {
   return (
     <Link
       href={link.href}
-      className={`relative py-1 text-sm font-medium transition-colors duration-200
+      className={`
+        relative group py-1 text-sm font-medium transition-colors duration-200
         ${isActive ? "text-blue-600" : "text-gray-700 hover:text-blue-600"}
       `}
     >
       {link.label}
 
-      {/** Underline indicator */}
+      {/* Underline */}
       <span
-        className={`absolute left-0 right-0 -bottom-[1.25rem] h-[4px] bg-blue-600 transition-all duration-200 ${
-          isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-        }`}
+        className={`
+          absolute left-0 right-0 -bottom-5 h-[3px] bg-blue-600
+          transition-all duration-300 ease-in-out
+          ${
+            isActive
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-x-0 group-hover:opacity-100 group-hover:scale-x-100"
+          }
+        `}
       />
     </Link>
   );

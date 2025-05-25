@@ -9,6 +9,7 @@ import twitter from "@/assets/images/icon-twitter.svg";
 import pinterest from "@/assets/images/icon-pinterest.svg";
 import instagram from "@/assets/images/icon-instagram.svg";
 import { Button } from "../ui/button";
+import Logo from "./Logo";
 
 const socialLinks = [
   { src: facebook, alt: "Facebook", href: "#" },
@@ -36,10 +37,10 @@ const Footer = () => {
             {/* Logo */}
             <Link
               href="/"
-              className="flex-shrink-0 sm:mb-8 bg-white inline-block"
+              className="flex-shrink-0 sm:mb-8 inline-block"
               aria-label="Go to homepage"
             >
-              <Image src={logo} width={130} alt="Easybank Logo" />
+              <Logo stroke="#fff" />
             </Link>
             {/* Social Media Icons */}
             <section
