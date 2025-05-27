@@ -1,7 +1,6 @@
-
 # Frontend Mentor - Easybank landing page solution
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -28,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the Easybank landing page](./screenshot.jpg)
+![Screenshot of the Easybank landing page](./src/assets/images/Digitalbank.png)
 
 ### Links
 
@@ -88,8 +87,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
 };
 
 export default FeatureCard;
-
-````
+```
 
 This reponsive compenent was used to render a card.
 
@@ -97,35 +95,33 @@ This reponsive compenent was used to render a card.
 
 In future projects, I want to:
 
-* Explore advanced animations and transitions using Framer Motion.
-* Improve performance and SEO techniques in Next.js apps.
-* Deepen my understanding of accessibility best practices in Tailwind and React.
-* Build more complex UI layouts and refine my use of design systems like shadcn/ui.
+- Explore advanced animations and transitions using Framer Motion.
+- Improve performance and SEO techniques in Next.js apps.
+- Deepen my understanding of accessibility best practices in Tailwind and React.
+- Build more complex UI layouts and refine my use of design systems like shadcn/ui.
 
 ### Useful resources
 
-* [Tailwind CSS Documentation](https://tailwindcss.com/docs) – My go-to for styling and layout references.
-* [shadcn/ui Docs](https://ui.shadcn.com/docs) – Helped me structure and theme my UI components.
-* [Firebase Docs](https://firebase.google.com/docs) – Used as a code editor.
-* [Vercel Docs](https://vercel.com/docs) – For continuous deployment and managing environments.
-* [FreeCodeCamp Articles](https://www.freecodecamp.org/news/) – Great explanations on Next.js, responsive design, and modern CSS tips.
-* [YouTube Tutorials](https://www.youtube.com) – Channels like Frontend Masters, Web Dev Simplified, and Codevolution were really helpful.
-* [Git Documentation](https://git-scm.com/doc) – For mastering commits, branches, and remote repositories.
-* [ChatGPT](https://chat.openai.com/) – Helped me debug, structure components, and clarify tricky layout logic.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) – My go-to for styling and layout references.
+- [shadcn/ui Docs](https://ui.shadcn.com/docs) – Helped me structure and theme my UI components.
+- [Firebase Docs](https://firebase.google.com/docs) – Used as a code editor.
+- [Vercel Docs](https://vercel.com/docs) – For continuous deployment and managing environments.
+- [FreeCodeCamp Articles](https://www.freecodecamp.org/news/) – Great explanations on Next.js, responsive design, and modern CSS tips.
+- [YouTube Tutorials](https://www.youtube.com) – Channels like Frontend Masters, Web Dev Simplified, and Codevolution were really helpful.
+- [Git Documentation](https://git-scm.com/doc) – For mastering commits, branches, and remote repositories.
+- [ChatGPT](https://chat.openai.com/) – Helped me debug, structure components, and clarify tricky layout logic.
 
 ## Author
 
-* Website – [your-portfolio.com](https://your-portfolio.com)
-* Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-* Twitter – [@yourusername](https://twitter.com/yourusername)
+- Website – [your-portfolio.com](https://your-portfolio.com)
+- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter – [@yourusername](https://twitter.com/yourusername)
 
 ## Acknowledgments
 
 A huge thanks to:
 
-* The creators of the tutorials I watched on YouTube.
-* The authors of articles on FreeCodeCamp for their detailed breakdowns of frontend concepts.
-* ChatGPT for assisting in code snippets, logic, and design decisions.
-* The Tailwind, Next.js, and shadcn/ui communities for the amazing tooling and documentation.
-
-
+- The creators of the tutorials I watched on YouTube.
+- The authors of articles on FreeCodeCamp for their detailed breakdowns of frontend concepts.
+- ChatGPT for assisting in code snippets, logic, and design decisions.
+- The Tailwind, Next.js, and shadcn/ui communities for the amazing tooling and documentation.
