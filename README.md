@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the Easybank landing page](./screenshot.jpg)
+![Screenshot of the Easybank landing page](..src/assets/images/Digitalbank.png)
 
 ### Links
 
