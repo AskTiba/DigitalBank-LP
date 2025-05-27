@@ -102,22 +102,6 @@ In future projects, I want to:
 
 ### Useful resources
 
-<<<<<<< HEAD
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs) – My go-to for styling and layout references.
-- [shadcn/ui Docs](https://ui.shadcn.com/docs) – Helped me structure and theme my UI components.
-- [Firebase Docs](https://firebase.google.com/docs) – Used as a code editor.
-- [Vercel Docs](https://vercel.com/docs) – For continuous deployment and managing environments.
-- [FreeCodeCamp Articles](https://www.freecodecamp.org/news/) – Great explanations on Next.js, responsive design, and modern CSS tips.
-- [YouTube Tutorials](https://www.youtube.com) – Channels like Frontend Masters, Web Dev Simplified, and Codevolution were really helpful.
-- [Git Documentation](https://git-scm.com/doc) – For mastering commits, branches, and remote repositories.
-- [ChatGPT](https://chat.openai.com/) – Helped me debug, structure components, and clarify tricky layout logic.
-
-## Author
-
-- Website – [your-portfolio.com](https://your-portfolio.com)
-- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter – [@yourusername](https://twitter.com/yourusername)
-=======
 * [Tailwind CSS Documentation](https://tailwindcss.com/docs) – My go-to for styling and layout references.
 * [shadcn/ui Docs](https://ui.shadcn.com/docs) – Helped me structure and theme my UI components.
 * [Firebase Docs](https://firebase.google.com/docs) – Used as a code editor.
@@ -131,21 +115,12 @@ In future projects, I want to:
 * Website – [your-portfolio.com](https://your-portfolio.com)
 * Frontend Mentor – (https://www.frontendmentor.io/profile/AskTiba)
 * Twitter – (https://x.com/AskTiba)
->>>>>>> b57d3e2d9aec866b3985b86f3dae53e962e04ec5
 
 ## Acknowledgments
 
 A huge thanks to:
 
-<<<<<<< HEAD
-- The creators of the tutorials I watched on YouTube.
-- The authors of articles on FreeCodeCamp for their detailed breakdowns of frontend concepts.
-- ChatGPT for assisting in code snippets, logic, and design decisions.
-- The Tailwind, Next.js, and shadcn/ui communities for the amazing tooling and documentation.
-=======
 * The creators of the tutorials I watched on YouTube.
 * The authors of articles on FreeCodeCamp for their detailed breakdowns of frontend concepts.
 * The Tailwind, Next.js, and shadcn/ui communities for the amazing tooling and documentation.
 
-
->>>>>>> b57d3e2d9aec866b3985b86f3dae53e962e04ec5
