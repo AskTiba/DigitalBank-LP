@@ -111,13 +111,12 @@ In future projects, I want to:
 * [FreeCodeCamp Articles](https://www.freecodecamp.org/news/) – Great explanations on Next.js, responsive design, and modern CSS tips.
 * [YouTube Tutorials](https://www.youtube.com) – Channels like Frontend Masters, Web Dev Simplified, and Codevolution were really helpful.
 * [Git Documentation](https://git-scm.com/doc) – For mastering commits, branches, and remote repositories.
-* [ChatGPT](https://chat.openai.com/) – Helped me debug, structure components, and clarify tricky layout logic.
 
 ## Author
 
 * Website – [your-portfolio.com](https://your-portfolio.com)
-* Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-* Twitter – [@yourusername](https://twitter.com/yourusername)
+* Frontend Mentor – (https://www.frontendmentor.io/profile/AskTiba)
+* Twitter – (https://x.com/AskTiba)
 
 ## Acknowledgments
 
@@ -125,7 +124,6 @@ A huge thanks to:
 
 * The creators of the tutorials I watched on YouTube.
 * The authors of articles on FreeCodeCamp for their detailed breakdowns of frontend concepts.
-* ChatGPT for assisting in code snippets, logic, and design decisions.
 * The Tailwind, Next.js, and shadcn/ui communities for the amazing tooling and documentation.
 
 
