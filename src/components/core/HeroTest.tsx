@@ -6,8 +6,8 @@ import mockups from "@/assets/images/image-mockups.png";
 
 export const HeroTest = () => {
   return (
-    <main>
-      <div className="mb-40 justify-between hidden sm:flex overflow-x-clip">
+    <main className="overflow-x-clip">
+      <div className="mb-40 justify-between relative hidden sm:flex ">
         <section className="w-1/3 ml-32 flex  flex-col gap-6 mt-40">
           <h1 className="text-5xl">Next generation digital banking</h1>
           <p className="sm:text-[17px] text-gray-500 mr-10">
@@ -28,7 +28,7 @@ export const HeroTest = () => {
               alt="Company logo"
             />
           </div>
-          <div className="absolute -right-40 -top-12">
+          <div className="absolute -right-40 -top-32">
             <Image src={mockups} className="" alt="Company logo" />
           </div>
         </section>
