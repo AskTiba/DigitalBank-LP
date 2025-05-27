@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the Easybank landing page](..src/assets/images/Digitalbank.png)
+![Screenshot of the Easybank landing page](./src/assets/images/Digitalbank.png)
 
 ### Links
 
 - Solution URL: [https://github.com/AskTiba/DigitalBank-LP]
-- Live Site URL: [digital-bank-lp.vercel.app]
+- Live Site URL: [https://digital-bank-lp.vercel.app/]
 
 ## My process
 
